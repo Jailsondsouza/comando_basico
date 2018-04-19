@@ -26,3 +26,47 @@ git commit -m - "
 git remote add origin https://github.com/Jailsondsouza/comando_basico.git aponta para o arquivo externo
 git push -u - envia o arquivo para o master
 git diff nomedoarquivo - mostra as modificações do arquivo
+
+Comandos Rails 
+rails new blog
+cd blog
+
+rails g controller Home index about
+
+rails g scaffold Post title:string body:text
+
+rails generate devise User
+
+rails destroy devise:views
+rails generate devise:views users
+rake db:migrate
+rake db:migrate
+rake routes
+rails g migration AddNameToUsers name:string
+
+Comandos Git 
+git status
+git checkout config/secrets.yml
+git checkout config/database.yml
+
+Vamos criar uma nova branch para desenvolvimento
+git checkout -B  dev 
+git branch - lista as branchs 
+git push origin dev 
+git config --global http.proxy http://10.1.118.254:3128    →  Acesso do proxy
+
+
+
+Comandos Linux 
+
+touch app/views/layouts/_header.html.erb
+
+Comando Extras
+@set PATH=C:\RailsInstaller\Ruby2.2.0\bin;%PATH%
+set http_proxy=http://10.1.118.254:3128
+
+
+
+
+Comando do Projeto:
+rails new app-game
