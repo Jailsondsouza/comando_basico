@@ -42,7 +42,7 @@ rails generate devise:views users
 rake db:migrate
 rake db:migrate
 rake routes
-rails g migration AddNameToUsers name:string
+rails g migration AddNameToUsers name:string "Corrige banco de dados"
 
 Comandos Git 
 git status
